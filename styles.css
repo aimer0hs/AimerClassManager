@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white; /* Set all text to white */
+    text-shadow: 0px 0px 10px white; /* Glowing effect */
+}
+
+h1, h2 {
+    text-align: center;
+    color: white; /* Set headings to white */
+    text-shadow: 0px 0px 10px white; /* Glowing effect */
+}
+
+.hidden {
+    display: none;
+}
+
+#home-page, #class-page {
+    padding: 20px;
+}
+
+#add-class-btn, #add-student-btn, #add-session-btn, #remove-session-btn, #reset-all-btn, #back-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #00ff00;
+    color: black; /* Change button text color to black for contrast */
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+#add-class-btn:hover, #add-student-btn:hover, #add-session-btn:hover, #remove-session-btn:hover, #reset-all-btn:hover, #back-btn:hover {
+    transform: scale(1.1);
+}
+
+#class-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.class-item {
+    margin: 5px 0;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background: #121212;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.class-item:hover {
+    background: #00ff00;
+    color: black; /* Change text color to black on hover */
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    background: #121212;
+    color: white; /* Set textarea text color to white */
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+}
+
+#attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#attendance-table th, #attendance-table td {
+    border: 1px solid #00ff00;
+    text-align: center;
+    padding: 10px;
+    color: white; /* Set table text color to white */
+}
+
+#footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #121212;
+}
+
+#footer-text {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    color: white; /* Set footer text color to white */
+    text-shadow: 0px 0px 5px white, 0px 0px 10px white; /* Glowing effect */
+    cursor: pointer; /* Pointer cursor for clickable elements */
+    text-decoration: none;
+}

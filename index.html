@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Class Attendance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="home-page">
+    <div id="footer">
+      <a id="footer-text" href="https://github.com/aimer0hs" target="_blank">Made by Aimer0hs</a>
+    </div>
+    <h1>Class Attendance Tracker</h1>
+    <button id="add-class-btn">Add Class</button>
+    <div id="class-list"></div>
+    
+  </div>
+
+  <div id="class-page" class="hidden">
+    <button id="back-btn">Back to Home</button>
+    <h2 id="class-title"></h2>
+    <textarea id="class-description" placeholder="Add class description..."></textarea>
+    <table id="attendance-table">
+      <thead>
+        <tr>
+          <th>Student Name</th>
+          <th>Avg Marks</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <button id="add-student-btn">Add Student</button>
+    <button id="add-session-btn">Add Session</button>
+    <button id="remove-session-btn">Remove Last Session</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
